@@ -4,7 +4,7 @@
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
 <img src="https://www.google.com/search?q=https://img.shields.io/badge/Python-3776AB%3Fstyle%3Dfor-the-badge%26logo%3Dpython%26logoColor%3Dwhite" alt="Python" />
 <img src="https://www.google.com/search?q=https://img.shields.io/badge/Google_Colab-F9AB00%3Fstyle%3Dfor-the-badge%26logo%3Dgooglecolab%26logoColor%3Dwhite" alt="Google Colab" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen%3Fstyle%3Dfor-the-badge" alt="Status" />
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Status-Conclu%C3%ADdo-4c1%3Fstyle%3Dfor-the-badge" alt="Status" />
 </p>
 
 📖 Sobre o Projeto

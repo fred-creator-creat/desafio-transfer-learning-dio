@@ -1,15 +1,15 @@
 🐾 Classificador de Imagens: Gatos vs Cachorros (Transfer Learning)
 
 <p align="center">
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" />
-  <img src="https://img.shields.io/badge/Status-Concluido-success?style=for-the-badge" />
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" />
+<img src="https://img.shields.io/badge/Status-Concluido-success?style=for-the-badge" />
 </p>
 
 📖 Sobre o Projeto
 
-Este projeto foi desenvolvido para o desafio de Transfer Learning da trilha de IA da DIO (Digital Innovation One). O objetivo foi criar uma solução de Visão Computacional de alta precisão capaz de diferenciar felinos de caninos em imagens digitais.
+Este projeto foi desenvolvido para o desafio de Transfer Learning integrante do programa de formação em IA realizado pela BairesDev em parceria com a DIO (Digital Innovation One). O objetivo foi criar uma solução de Visão Computacional de alta precisão capaz de diferenciar felinos de caninos em imagens digitais.
 
 Diferente do treinamento tradicional, este projeto utiliza a técnica de Transferência de Aprendizado, permitindo alcançar resultados de nível industrial com baixo custo computacional e tempo reduzido.
 
@@ -74,5 +74,5 @@ O arquivo meu_modelo_gatos_caes.h5 gerado pode ser carregado em aplicações fut
 Este projeto demonstra como o Transfer Learning é uma ferramenta poderosa na caixa de ferramentas de um cientista de dados, permitindo que modelos complexos sejam adaptados para problemas específicos com precisão cirúrgica.
 
 <p align="center">
-Desenvolvido com ❤️ por <strong>Fred</strong> durante o Bootcamp de IA da <strong>DIO</strong>.
+Desenvolvido com ❤️ por <strong>Fred</strong> durante o Bootcamp de IA da <strong>BairesDev</strong> em parceria com a <strong>DIO</strong>.
 </p>

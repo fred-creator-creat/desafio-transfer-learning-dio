@@ -1,37 +1,80 @@
-Classificação de Gatos e Cachorros com Transfer Learning 🐾
+🐾 Classificador de Imagens: Gatos vs Cachorros (Transfer Learning)
 
-Este projeto foi desenvolvido como parte do desafio de Transfer Learning da DIO (Digital Innovation One). O objetivo foi criar uma Inteligência Artificial capaz de distinguir entre imagens de gatos e cachorros utilizando redes neurais profundas.
+<p align="center">
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Python-3776AB%3Fstyle%3Dfor-the-badge%26logo%3Dpython%26logoColor%3Dwhite" alt="Python" />
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Google_Colab-F9AB00%3Fstyle%3Dfor-the-badge%26logo%3Dgooglecolab%26logoColor%3Dwhite" alt="Google Colab" />
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen%3Fstyle%3Dfor-the-badge" alt="Status" />
+</p>
 
-🚀 Tecnologias Utilizadas
+📖 Sobre o Projeto
 
-Python: Linguagem principal.
+Este projeto foi desenvolvido para o desafio de Transfer Learning da trilha de IA da DIO (Digital Innovation One). O objetivo foi criar uma solução de Visão Computacional de alta precisão capaz de diferenciar felinos de caninos em imagens digitais.
 
-TensorFlow / Keras: Frameworks de Deep Learning.
+Diferente do treinamento tradicional, este projeto utiliza a técnica de Transferência de Aprendizado, permitindo alcançar resultados de nível industrial com baixo custo computacional e tempo reduzido.
 
-MobileNetV2: Modelo base pré-treinado utilizado para Transfer Learning.
+🧠 Arquitetura do Modelo
 
-Google Colab: Ambiente de desenvolvimento com suporte a GPU T4.
+A base deste projeto é a rede neural MobileNetV2, uma arquitetura otimizada para dispositivos móveis, pré-treinada no gigante dataset ImageNet.
 
-🧠 Como o Projeto Funciona
+Feature Extractor: MobileNetV2 (Pesos congelados).
 
-Em vez de treinar uma rede do zero (o que levaria dias), utilizei o conceito de Transfer Learning. Aproveitei o conhecimento da rede MobileNetV2, que já foi treinada em milhões de imagens, e "re-ensinei" apenas a camada final para focar na diferença específica entre felinos e caninos.
+Classifier: Camada de Global Average Pooling + Camada Densa Final (Neurônio único).
 
-📈 Resultados Alcançados
+Otimizador: RMSprop com taxa de aprendizado de $0.0001$.
 
-Acurácia Final: ~98.7%
+Função de Perda: Binary Cross-Entropy.
 
-Tempo de Treinamento: Reduzido drasticamente de 1 hora para menos de 10 minutos com o uso de GPU.
+🚀 Performance e Resultados
 
-Performance: A IA demonstrou 100% de acerto nas amostras visuais de teste após 3 épocas de ajuste.
+Graças ao uso da GPU T4 no Google Colab, o treinamento foi extremamente eficiente.
 
-🛠️ Como rodar o projeto
+Métrica
 
-Abra o arquivo .ipynb no Google Colab.
+Resultado Obtido
 
-Ative o acelerador de hardware para GPU T4.
+Acurácia (Treino)
 
-Execute as células em ordem (Passos 1 ao 7).
+~98.5%
 
-O modelo treinado será salvo como meu_modelo_gatos_caes.h5.
+Acurácia (Validação)
 
-Desenvolvido por Fred durante o bootcamp de IA da DIO.
+~98.7%
+
+Tempo por Época
+
+~2 minutos
+
+Taxa de Acerto Visual
+
+100% (Amostras de Teste)
+
+🛠️ Tecnologias e Ferramentas
+
+Deep Learning: TensorFlow 2.x & Keras
+
+Processamento de Dados: TensorFlow Datasets
+
+Visualização: Matplotlib
+
+Dataset: cats_vs_dogs (Milhares de imagens reais)
+
+📂 Como Utilizar este Repositório
+
+1. Execução no Colab
+
+Você pode rodar este projeto diretamente no seu navegador clicando no botão abaixo:
+
+Nota: Certifique-se de ativar a GPU em Ambiente de Execução > Alterar tipo de ambiente de execução.
+
+2. O Modelo Salvo
+
+O arquivo meu_modelo_gatos_caes.h5 gerado pode ser carregado em aplicações futuras ou sites web para fazer previsões em tempo real.
+
+🎯 Conclusão
+
+Este projeto demonstra como o Transfer Learning é uma ferramenta poderosa na caixa de ferramentas de um cientista de dados, permitindo que modelos complexos sejam adaptados para problemas específicos com precisão cirúrgica.
+
+<p align="center">
+Desenvolvido com ❤️ por <strong>Fred</strong> durante o Bootcamp de IA da <strong>DIO</strong>.
+</p>
